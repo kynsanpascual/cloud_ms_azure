@@ -7,4 +7,4 @@ sudo apt-get update
 sudo apt-get install -y nginx
 
 # Set the home page.
-echo "<html><body><h2>Welcome to Azure! My name is kylee-nicole. This is an activity for EASTWEST CCSA.</h2></body></html>" | sudo tee -a /var/www/html/index.html
+echo "<html><body><h2>Welcome to Azure! My name is $(hostname). This is an activity for EASTWEST CCSA.</h2></body></html>" | sudo tee -a /var/www/html/index.html
